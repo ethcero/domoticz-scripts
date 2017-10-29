@@ -32,7 +32,7 @@ if ( (sunsetDiff == sunsetOffset)
 end
 
 -- Cambiar por sensor de lluvia local deviceName=='isRainning?'
-if (otherdevices_rain_lasthour['Lluvia'] > 0
+if (otherdevices_rain_lasthour['Lluvia'] > 1
     and otherdevices_scenesgroups['Persianas salon'] == 'On'
     ) then
      print('Cerrando persianas salon por lluvia')
